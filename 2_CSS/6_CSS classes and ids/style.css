@@ -1,0 +1,47 @@
+/* h1{
+    background-color: red;
+} */
+
+
+#bottle{
+    background-color: aqua;
+    color: blueviolet;
+}
+
+#water{
+    background-color: black;
+    color: white;
+}
+
+#span1{
+    background-color: black;
+    color: white;
+}
+
+/* 
+how to define a class in css
+*/
+
+.indore{
+    font-size: 500%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blueviolet;
+}
+
+.bodysection{
+    background-image: url('images/ann.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+div{
+    border-width: 5px;
+    border-color: rebeccapurple;
+    border-style: solid;
+    width: 50%;
+    padding: 55px;
+    margin-top: -100px;
+    border-radius: 5px;
+    border: 5px solid red;
+}
