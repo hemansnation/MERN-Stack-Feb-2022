@@ -1,0 +1,38 @@
+*{
+    color:blue;
+}
+
+#p1{
+    color:red;
+    border: 2px solid red;
+    width: 50%;
+    padding: 15px;
+    text-align: justify;
+    text-indent: 14%;
+}
+
+/* #oneline{
+    /* text-align: right;
+    color: blue;
+} */
+
+/* a{
+    text-decoration: underline;
+    text-transform: capitalize;
+    
+} */
+
+a:link{
+    color: blue;
+}
+a:visited{
+    color: black;
+}
+
+a:hover{
+    color:red;
+}
+
+a:active{
+    color: aqua;
+}
