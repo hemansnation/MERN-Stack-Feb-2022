@@ -1,0 +1,43 @@
+table, thead, tbody, th, td{
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-collapse: collapse;
+}
+
+table{
+    width: 100%;
+}
+
+tr{
+    text-align: center;
+}
+
+/* td{
+    border-style: solid;
+    border-color: red;
+    border-top-width: 2px;
+    border-right-width: 0px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+} */
+
+th, td{
+    padding: 15px;
+}
+th{
+    background-color: chartreuse;
+}
+
+td:hover{
+    background-color: aqua;
+}
+/* 
+tr:nth-child(1), tr:nth-child(2){
+    background-color: chocolate;
+} */
+
+
+td:nth-child(1){
+    background-color: chocolate;
+}
