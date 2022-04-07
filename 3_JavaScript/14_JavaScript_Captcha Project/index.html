@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+    <title>Captcha</title>
+</head>
+<body onload="captchaGenerator()">
+
+    <h1>Captcha Project</h1>
+
+    Captcha*
+    <input type="text" id="mainCaptcha" disabled />
+    <button onclick="captchaGenerator()" >Refresh</button>
+
+    <br>
+    <br>
+    Enter Captcha Here: 
+    <input type="text" id="inputCaptcha" />
+    
+    <button onclick="alert(isValid())">Check</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
